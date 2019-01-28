@@ -6,7 +6,6 @@ public class programme_main {
         int choix=0;
 
 
-
         affichermenu();
         choix=sc.nextInt();
 
