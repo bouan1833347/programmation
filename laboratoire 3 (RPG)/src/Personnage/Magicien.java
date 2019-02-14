@@ -1,6 +1,12 @@
+package Personnage;
+import Arme.Magique;
+import Sort.Sort;
+import Personnage.Personnage;
+
 import java.util.Random;
 public abstract class Magicien extends Personnage {
     protected Random rand = new Random();
+    protected Magique arme;
 
 
 

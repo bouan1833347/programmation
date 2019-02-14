@@ -1,3 +1,8 @@
+package Sort;
+
+import Personnage.Personnage;
+import Sort.Sort;
+
 import java.util.Random;
 public class Mortsubite extends Sort {
     public Mortsubite(){super(10);}
@@ -6,7 +11,7 @@ public class Mortsubite extends Sort {
 
 
 
-    public void LancerSort(Personnage attaque,Personnage attaquant)
+    public void LancerSort(Personnage attaque, Personnage attaquant)
     {
         if(attaquant.getPtdemagie()>=10)
         {

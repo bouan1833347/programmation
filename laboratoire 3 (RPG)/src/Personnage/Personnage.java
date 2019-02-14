@@ -1,3 +1,6 @@
+package Personnage;
+import Arme.*;
+
 public abstract class Personnage {
     protected int Ptdemagie;
     protected int ptdevie;
@@ -5,13 +8,16 @@ public abstract class Personnage {
     protected String nom;
 
 
+
     public Personnage(int ptdevie,int ptdarmure,String nom,int ptdemagie)
     {
         this.ptdevie=ptdevie;
         this.nom=nom;
         this.ptdarmure=ptdarmure;
+        this.Ptdemagie=ptdemagie;
 
     }
+
 
 
 
@@ -32,7 +38,14 @@ public abstract class Personnage {
 
 
 
+
+
+
+
     public abstract void Attaque(Personnage attaque,Personnage attaquant);
+
+
+
 
 
 
